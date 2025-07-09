@@ -1,0 +1,131 @@
+.scroll{
+-fx-focus-color: transparent; 
+-fx-faint-focus-color: transparent;
+-fx-background-color: transparent;
+-fx-background-insets: 0;
+-fx-border-width: 0;
+
+}
+
+/*
+.scroll-pane .scroll-bar:vertical,
+.scroll-pane .scroll-bar:horizontal {
+    -fx-opacity: 0;
+    -fx-visibility: hidden;
+}*/
+
+/* Style for vertical scroll bar */
+.scroll-pane .scroll-bar:vertical {
+    -fx-background-color: #333333; /* Background color */
+    -fx-background-insets: 0; /* Remove any insets */
+    -fx-opacity: 0.7; /* Opacity of the scroll bar */
+}
+
+/* Style for horizontal scroll bar */
+.scroll-pane .scroll-bar:horizontal {
+    -fx-background-color: #333333; /* Background color */
+    -fx-background-insets: 0; /* Remove any insets */
+    -fx-opacity: 0.7; /* Opacity of the scroll bar */
+}
+
+/* Thumb (the draggable part) */
+.scroll-pane .scroll-bar .thumb {
+    -fx-background-color: #666666; /* Color of the thumb */
+}
+
+/* Arrow buttons */
+.scroll-pane .scroll-bar .increment-button,
+.scroll-pane .scroll-bar .decrement-button {
+    -fx-background-color: #666666; /* Color of the buttons */
+}
+
+/* Hover effect on thumb */
+.scroll-pane .scroll-bar .thumb:hover {
+    -fx-background-color: #999999; /* Color when hovered */
+}
+
+
+.search{
+-fx-text-fill: white;
+
+}
+
+
+
+
+.choosed{
+-fx-background-color:#40454b;
+}
+
+.item-hover:hover{
+-fx-background-color:#40454b;
+}
+.pointer:hover {
+-fx-text-fill: blue;
+}
+
+
+
+
+
+
+
+
+
+
+/* dark-alert.css */
+.dialog-pane {
+    -fx-background-color: #2b2b2b;
+}
+
+.dialog-pane .content.label {
+    -fx-text-fill: white;
+}
+
+.dialog-pane .button {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: white;
+    -fx-border-color: #555555;
+    -fx-border-width: 1px;
+}
+
+.dialog-pane .button:hover {
+    -fx-background-color: #45494a;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #2b2b2b;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white;
+}
+
+
+
+
+.settings-box{
+-fx-background-color: #40454b;
+-fx-padding:10;
+ -fx-background-radius: 5px;
+  -fx-margin: 10px;
+
+}
+
+.edite-button {
+    -fx-background-color: #26d913;
+    -fx-text-fill: white;
+    -fx-font-family: 'System';
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0.15, 0, 1);
+}
+
+
+.delete-button {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-family: 'System';
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}

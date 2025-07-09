@@ -1,0 +1,22 @@
+CREATE TABLE list(
+id INTEGER PRIMARY KEY ,
+name TEXT
+);
+
+CREATE TABLE password(
+id INTEGER PRIMARY KEY,
+name TEXT,
+username TEXT,
+pass TEXT,
+list_id INTEGER NULL,
+created_at TIMESTAMP DEFAULT CURRENT_DATE,
+
+ FOREIGN KEY (list_id) REFERENCES list(id)
+
+);
+
+
+CREATE TABLE auth(
+id INTEGER PRIMARY KEY,
+password TEXT
+);
